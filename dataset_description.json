@@ -1,0 +1,10 @@
+{
+  "Name": "MorseEEG-ATP",
+  "BIDSVersion": "1.10.1",
+  "DatasetType": "raw",
+  "License": "CC0",
+  "Authors": [
+    "HZY",
+    "Research Team"
+  ]
+}
