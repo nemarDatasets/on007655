@@ -3,41 +3,6 @@ data:
     types:
       resourceTypeGeneral: Dataset
     contributors:
-      - name: Ying Zeng
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Researcher
-        order: 1
-      - name: Siyuan Zhang
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Researcher
-        order: 2
-      - name: Changfu Pei
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Researcher
-        order: 3
-      - name: Yuanlong Gao
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Researcher
-        order: 4
-      - name: Bin Yan
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Supervisor
-        order: 5
       - name: Zhongyang He
         givenName: ''
         familyName: ''
@@ -47,8 +12,46 @@ data:
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
         contributorType: ContactPerson
+        order: 1
+      - name: Ying Zeng
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+      - name: Siyuan Zhang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 3
+      - name: Changfu Pei
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 4
+      - name: Yuanlong Gao
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 5
+      - name: Bin Yan
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Supervisor
         order: 6
     creators:
+      - name: Zhongyang He
+        nameType: Personal
+        nameIdentifiers: *ref_0
       - name: Ying Zeng
         nameType: Personal
       - name: Siyuan Zhang
@@ -59,9 +62,6 @@ data:
         nameType: Personal
       - name: Bin Yan
         nameType: Personal
-      - name: Zhongyang He
-        nameType: Personal
-        nameIdentifiers: *ref_0
     descriptions:
       - description: N/A
         descriptionType: Abstract
