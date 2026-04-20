@@ -24,37 +24,20 @@ data:
         nameIdentifiers: []
         contributorType: Researcher
         order: 3
-      - name: Li Tong
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Researcher
-        order: 4
       - name: Yuanlong Gao
         givenName: ''
         familyName: ''
         nameType: Personal
         nameIdentifiers: []
         contributorType: Researcher
-        order: 5
+        order: 4
       - name: Bin Yan
         givenName: ''
         familyName: ''
         nameType: Personal
         nameIdentifiers: []
-        contributorType: Researcher
-        order: 6
-      - name: kunlin guo
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: &ref_0
-          - nameIdentifier: https://orcid.org/0009-0004-0409-9009
-            nameIdentifierScheme: ORCID
-            schemeUri: https://orcid.org
-        contributorType: Researcher
-        order: 7
+        contributorType: Supervisor
+        order: 5
     creators:
       - name: Ying Zeng
         nameType: Personal
@@ -62,15 +45,10 @@ data:
         nameType: Personal
       - name: Changfu Pei
         nameType: Personal
-      - name: Li Tong
-        nameType: Personal
       - name: Yuanlong Gao
         nameType: Personal
       - name: Bin Yan
         nameType: Personal
-      - name: kunlin guo
-        nameType: Personal
-        nameIdentifiers: *ref_0
     descriptions:
       - description: N/A
         descriptionType: Abstract
