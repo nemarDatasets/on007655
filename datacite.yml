@@ -38,6 +38,16 @@ data:
         nameIdentifiers: []
         contributorType: Supervisor
         order: 5
+      - name: Zhongyang He
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_0
+          - nameIdentifier: https://orcid.org/0000-0002-1471-7120
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: ContactPerson
+        order: 6
     creators:
       - name: Ying Zeng
         nameType: Personal
@@ -49,6 +59,9 @@ data:
         nameType: Personal
       - name: Bin Yan
         nameType: Personal
+      - name: Zhongyang He
+        nameType: Personal
+        nameIdentifiers: *ref_0
     descriptions:
       - description: N/A
         descriptionType: Abstract
