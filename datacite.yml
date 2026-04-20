@@ -1,0 +1,63 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Ying Zeng
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 1
+      - name: Siyuan Zhang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+      - name: Changfu Pei
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 3
+      - name: Li Tong
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 4
+      - name: Yuanlong Gao
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 5
+      - name: Bin Yan
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 6
+    creators:
+      - name: Ying Zeng
+        nameType: Personal
+      - name: Siyuan Zhang
+        nameType: Personal
+      - name: Changfu Pei
+        nameType: Personal
+      - name: Li Tong
+        nameType: Personal
+      - name: Yuanlong Gao
+        nameType: Personal
+      - name: Bin Yan
+        nameType: Personal
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
