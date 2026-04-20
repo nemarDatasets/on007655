@@ -45,6 +45,16 @@ data:
         nameIdentifiers: []
         contributorType: Researcher
         order: 6
+      - name: kunlin guo
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_0
+          - nameIdentifier: https://orcid.org/0009-0004-0409-9009
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 7
     creators:
       - name: Ying Zeng
         nameType: Personal
@@ -58,6 +68,9 @@ data:
         nameType: Personal
       - name: Bin Yan
         nameType: Personal
+      - name: kunlin guo
+        nameType: Personal
+        nameIdentifiers: *ref_0
     descriptions:
       - description: N/A
         descriptionType: Abstract
