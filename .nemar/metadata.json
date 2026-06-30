@@ -2,53 +2,14 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "MorseEEG-ATP",
+  "description": "MorseEEG-ATP is a multitask electroencephalography dataset comprising synchronously recorded EEG and behavioral data from 32 healthy adult participants performing auditory discrimination tasks using Morse code stimuli. The dataset addresses auditory temporal processing and temporal pattern discrimination across two tasks (dot-count and first-last match) and three presentation-rate conditions (15, 30, and 40 characters per minute). Raw 62-channel EEG recordings sampled at 600 Hz are provided alongside minimally preprocessed derivatives, trial-aligned event annotations, behavioral measures, and analysis scripts in BIDS-compatible format.",
+  "methods_description": "EEG data were acquired using a g.tec medical engineering g.HIamp system with 62 scalp electrodes arranged according to the International 10-20 system, sampled at 600 Hz, with online bandpass filtering (0.1-100 Hz) and notch filtering (48-52 Hz). Reference electrode was the right earlobe. Stimuli were presented and behavioral responses collected using E-Prime 3.0. Each trial consisted of a fixation period, stimulus presentation, response window, and jittered inter-trial interval.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "HZY": {},
     "Research Team": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007655.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007655",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on007655",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "beh",
-    "eeg"
-  ],
-  "resource_type_specific": "Neuroimaging Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".loc",
-    ".m",
-    ".mat",
-    ".md",
-    ".mp3",
-    ".tsv",
-    ".vhdr",
-    ".vmrk",
-    ".yml"
-  ],
-  "description": "MorseEEG-ATP is a multitask EEG dataset comprising synchronously recorded electroencephalography and behavioral data from 32 healthy adult participants (14 females) performing auditory discrimination tasks using Morse code stimuli. The dataset addresses auditory temporal processing and temporal pattern discrimination across three presentation-rate conditions (15, 30, and 40 characters per minute) and two task types (dot-count and first-last match judgments). Raw 62-channel EEG recordings sampled at 600 Hz are provided alongside minimally preprocessed derivatives, trial-aligned event annotations, behavioral measures, and analysis scripts in BIDS-compatible format.",
-  "methods_description": "EEG data were acquired using a g.tec medical engineering GmbH g.HIamp system with 62 scalp electrodes arranged according to the International 10-20 system, sampled at 600 Hz, with online bandpass filtering (0.1-100 Hz) and notch filtering (48-52 Hz). Reference electrode was the right earlobe. Stimuli were presented and behavioral responses collected using E-Prime 3.0. Each trial consisted of a fixation period, stimulus presentation, response window, and jittered inter-trial interval.",
   "keywords": [
     {
       "term": "EEG"
@@ -63,20 +24,61 @@
       "term": "Morse code"
     },
     {
-      "term": "rhythm perception"
+      "term": "Event-Related Potentials"
     },
     {
       "term": "listening ability assessment"
     },
     {
-      "term": "BIDS"
-    },
-    {
-      "term": "62-channel EEG"
-    },
-    {
-      "term": "auditory discrimination"
+      "term": "rhythm perception"
     }
   ],
-  "source_hash": "1ea7d31375fb2f8da6f2dfca7e390ed3329a858320a6a9c06ae7b5a1855a7b4a"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on007655",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007655",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007655.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
+  "modalities": [
+    "beh",
+    "eeg"
+  ],
+  "sizes": [
+    "15.6 GB (344 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".loc",
+    ".m",
+    ".mat",
+    ".md",
+    ".mp3",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Not specified"
+    },
+    {
+      "funder_name": "No funding"
+    }
+  ],
+  "source_hash": "0543fc5983b1de6b8a38bd69ca652c6b41c8bf9014469fbea48caa1b6c7fcf8c"
 }
