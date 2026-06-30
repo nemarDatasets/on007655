@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007655-blue)](https://doi.org/10.82901/nemar.on007655)
+
 MorseEEG-ATP: a multitask EEG dataset for exploring auditory temporal processing with Morse code
 
 ===================================
