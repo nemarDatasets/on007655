@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007655",
+  "source": "openneuro",
+  "source_id": "ds007655",
+  "title": "MorseEEG-ATP",
+  "authors": {
+    "HZY": {},
+    "Research Team": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007655.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.10.1",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
