@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "MorseEEG-ATP",
-  "description": "MorseEEG-ATP is a multitask electroencephalography dataset comprising synchronously recorded EEG and behavioral data from 32 healthy adult participants performing auditory discrimination tasks using Morse code stimuli. The dataset addresses auditory temporal processing and temporal pattern discrimination across two tasks (dot-count and first-last match) and three presentation-rate conditions (15, 30, and 40 characters per minute). Raw 62-channel EEG recordings sampled at 600 Hz are provided alongside minimally preprocessed derivatives, trial-aligned event annotations, behavioral measures, and analysis scripts in BIDS-compatible format. Technical validation is provided through behavioral performance, event-related potential responses, and listening-related measures as described in the accompanying Scientific Data publication. Note: Data quality issues including corrupted channels for sub-13 (channel 56), sub-14 (channel 56), and sub-15 (channel 43) have been addressed through interpolation in the preprocessed derivatives.",
-  "methods_description": "EEG data were acquired using a g.tec medical engineering g.HIamp system with 62 scalp electrodes arranged according to the International 10-20 system, sampled at 600 Hz, with online bandpass filtering (0.1-100 Hz) and notch filtering (48-52 Hz). Reference electrode was the right earlobe. Stimuli were presented and behavioral responses collected using E-Prime 3.0. Each trial consisted of a fixation period, stimulus presentation, response window, and jittered inter-trial interval.",
+  "description": "MorseEEG-ATP is a multitask electroencephalography dataset comprising synchronously recorded EEG and behavioral data from 32 healthy adult participants designed to investigate auditory temporal processing and temporal pattern discrimination using Morse code stimuli. The dataset includes raw 62-channel EEG recordings at 600 Hz, minimally preprocessed derivatives, trial-aligned event annotations, and behavioral measures across two discrimination tasks (dot-count and first-last match) presented at three transmission speeds (15, 30, and 40 characters per minute). This resource bridges the gap between low-level acoustic encoding and higher-level cognitive processing by providing a controlled, parameterizable paradigm for studying the extraction and discrimination of temporal patterns governed by explicit temporal rules.",
+  "methods_description": "EEG data were acquired using a g.tec medical engineering g.HIamp system with 62 scalp electrodes arranged according to the International 10-20 system, sampled at 600 Hz with online bandpass filtering (0.1-100 Hz) and notch filtering (48-52 Hz). The reference electrode was placed at the right earlobe. Stimuli were presented and behavioral responses collected using E-Prime 3.0. Each trial consisted of a fixation period, stimulus presentation, response window, and jittered inter-trial interval.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -33,16 +33,10 @@
       "term": "rhythm perception"
     },
     {
-      "term": "auditory discrimination"
+      "term": "multitask EEG"
     },
     {
-      "term": "BIDS"
-    },
-    {
-      "term": "individual differences"
-    },
-    {
-      "term": "neural decoding"
+      "term": "cross-rate temporal processing"
     }
   ],
   "related_identifiers": [
@@ -60,6 +54,20 @@
       "identifier": "10.18112/openneuro.ds007655.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Not specified",
+      "award_number": ""
+    },
+    {
+      "funder_name": "No external funding",
+      "award_number": ""
+    },
+    {
+      "funder_name": "No external funding reported",
+      "award_number": ""
     }
   ],
   "resource_type_general": "Dataset",
@@ -83,16 +91,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Not specified",
-      "award_number": ""
-    },
-    {
-      "funder_name": "No external funding",
-      "award_number": ""
-    }
   ],
   "source_hash": "0543fc5983b1de6b8a38bd69ca652c6b41c8bf9014469fbea48caa1b6c7fcf8c"
 }
